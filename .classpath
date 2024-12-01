@@ -1,40 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" output="target/classes" path="src/main/java">
+	<classpathentry kind="src" output="target/classes" path="src">
 		<attributes>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
-		<attributes>
-			<attribute name="test" value="true"/>
-			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
-		<attributes>
-			<attribute name="test" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-18">
 		<attributes>
 			<attribute name="module" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="Library/External Library/apache-logging-log4j.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/batik-anim-1.14.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/batik-awt-util-1.14.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/batik-bridge-1.14.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/batik-codec-1.14.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/batik-constants-1.14.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/batik-css-1.14.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/batik-dom-1.14.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/batik-ext-1.14.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/batik-gvt-1.14.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/batik-i18n-1.14.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/batik-parser-1.14.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/batik-script-1.14.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/batik-shared-resources-1.14.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/batik-svg-dom-1.14.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/batik-svggen-1.14.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/batik-svgrasterizer-1.14.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/batik-transcoder-1.14.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/batik-util-1.14.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/batik-xml-1.14.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/bcpkix-jdk15on-1.70.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/bcprov-jdk15on-1.70.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/bcutil-jdk15on-1.70.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/commons-cli-1.4.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/commons-codec-1.15.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/commons-collections4-4.4.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/commons-compress-1.21.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/commons-io-2.11.0.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/commons-lang3-3.8.1.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/curvesapi-1.07.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/fontbox-2.0.25.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/graphics2d-0.35.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/guava-25.1-android.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/guice-4.2.2-no_aop.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/jansi-2.4.0.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/javax.annotation-api-1.2.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/jcl-over-slf4j-1.7.36.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/log4j-api-2.17.2.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/maven-artifact-3.8.6.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/maven-builder-support-3.8.6.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/maven-compat-3.8.6.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/maven-core-3.8.6.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/maven-embedder-3.8.6.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/maven-model-3.8.6.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/maven-model-builder-3.8.6.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/maven-plugin-api-3.8.6.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/maven-repository-metadata-3.8.6.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/maven-resolver-api-1.6.3.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/maven-resolver-connector-basic-1.6.3.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/maven-resolver-impl-1.6.3.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/maven-resolver-provider-3.8.6.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/maven-resolver-spi-1.6.3.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/maven-resolver-transport-wagon-1.6.3.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/maven-resolver-util-1.6.3.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/maven-settings-3.8.6.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/maven-settings-builder-3.8.6.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/maven-shared-utils-3.3.4.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/maven-slf4j-provider-3.8.6.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/org.eclipse.sisu.inject-0.3.5.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/org.eclipse.sisu.plexus-0.3.5.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/pdfbox-2.0.25.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/plexus-cipher-2.0.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/plexus-classworlds-2.6.0.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/plexus-component-annotations-2.1.0.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/plexus-interpolation-1.26.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/poi-5.2.2.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/poi-examples-5.2.2.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/poi-excelant-5.2.2.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/poi-javadoc-5.2.2.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/poi-ooxml-5.2.2.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/poi-ooxml-full-5.2.2.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/poi-ooxml-lite-5.2.2.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/poi-scratchpad-5.2.2.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/selenium-server-3.141.59.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/selenium-server-4.2.2.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/slf4j-api-1.7.36.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/SparseBitSet-1.2.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/testng-6.14.3.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/xml-apis-ext-1.3.04.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/xmlbeans-5.0.3.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/xmlgraphics-commons-2.6.jar"/>
+	<classpathentry kind="lib" path="Library/External Library/xmlsec-2.3.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
